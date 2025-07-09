@@ -1,0 +1,28 @@
+{
+    "name": "CustomStatusPanel",
+    "version": "1.0.0",
+    "type": "theme",
+    "entry": "style.css",
+    "options": {
+        "borderRadius": {
+            "type": "text",
+            "label": "Border Radius",
+            "default": "5px"
+        },
+        "bgColor": {
+            "type": "color",
+            "label": "Background Color",
+            "default": "var(--zen-colors-tertiary)"
+        },
+        "borderColor": {
+            "type": "color",
+            "label": "Border Color",
+            "default": "var(--zen-colors-border)"
+        },
+        "showBorder": {
+            "type": "checkbox",
+            "label": "Show Border",
+            "default": true
+        }
+    }
+}

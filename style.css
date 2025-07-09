@@ -1,0 +1,10 @@
+#statuspanel {
+    margin: 10px !important;
+}
+
+#statuspanel-label {
+    border-radius: var(--borderRadius) !important;
+    padding: 2px 10px !important;
+    border: var(--showBorder, true) solid 1px var(--borderColor) !important;
+    background: var(--bgColor) !important;
+}
